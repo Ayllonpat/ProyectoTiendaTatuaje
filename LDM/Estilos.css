@@ -1,10 +1,26 @@
 .navbar{
     background-color:black;
-    color:  blueviolet;
 }
 .navbar-toggler{
     background-color: blueviolet;
 }
-.link-underline{
-    color: transparent;
+.nav-item {
+    color:  white;   
+}
+.offcanvas{
+    background-color:black;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+aside{
+    background-color: white;
+}
+main{
+    background-color: black;
+    color: white;
 }
