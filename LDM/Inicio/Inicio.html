@@ -21,12 +21,13 @@
           <a class="nav-item link-offset-2 link-underline link-underline-opacity-0 m-1" href="#">
             <h3>Tattoo Ink</h3>
           </a>
-
-          <a class="nav-item link-offset-2 link-underline link-underline-opacity-0 mr-1" href="modal">
-            <h4>Log In</h4>
-          </a>
+          
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Log In
+          </button>
 
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -74,35 +75,42 @@
               </form>
             </div>
           </div>
-          <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
+           
         </div>
+        
       </nav>
+      
     <div class="row">
       <aside class="col-12 col-lg-2 p-4">
       </aside>
 
-      <main class="col-12 col-lg-8 p-4">
+      <main class="col-12 col-lg-8 p-4 mt-5">
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam distinctio quo possimus architecto, odio rerum, quia reprehenderit quam voluptate facere ad qui. Ex magnam cum totam, beatae corporis aliquam eaque?</h1>
       </main>
 
       <aside class="col-12 col-lg-2 p-4">
       </aside>
     </div>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Log In</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            Va a ser requerido a otra página
+            <a href="https://www.iberia.com/es/" class="btn btn-danger" role="button">Continuar</a>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          </div>
 </body>
 </html>

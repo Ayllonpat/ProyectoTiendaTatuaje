@@ -1,14 +1,17 @@
 .navbar{
-    background-color:black;
+    background-color:rgb(24, 24, 24);
 }
 .navbar-toggler{
-    background-color: blueviolet;
+    background-color: rgb(201, 151, 247);
 }
 .nav-item {
     color:  white;   
 }
+.nav-link:visited{
+    color: white;
+}
 .offcanvas{
-    background-color:black;
+    background-color:rgb(24, 24, 24);
     color: white;
 }
 .nav-link{
@@ -17,10 +20,17 @@
 .nav-link:hover{
     color: blueviolet;
 }
-aside{
-    background-color: white;
+.row{
+    background-color: rgb(24, 24, 24);
 }
 main{
-    background-color: black;
+    background-color:rgb(24, 24, 24);
     color: white;
+}
+aside{
+    background-image: url(https://www.sun-music.es/wp-content/uploads/2021/02/proteger-tatuajes-mientras-te-bronceas.jpg);
+}
+.btn {
+    color: black;
+    background-color: white;
 }
