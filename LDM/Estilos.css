@@ -34,3 +34,12 @@ aside{
     color: black;
     background-color: white;
 }
+.btn:hover{
+    background-color: rgb(201, 151, 247);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: rgb(24, 24, 24);
+}
