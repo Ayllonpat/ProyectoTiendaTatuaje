@@ -19,3 +19,32 @@
 >>>>>>> d504d06d9e3e8fef987a7e8f49285457e347ba1f
 >>>>>>> ba4f6500696a29b2fc76edc554579fba41b8d40e
 2024-04-24 12:45:37,291 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-26 11:20:08,922 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-26 11:20:17,901 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:ud8e03buclesyswitch:0.0.1-SNAPSHOT @ C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\UD8E03BuclesYSwitch\pom.xml.
+2024-04-26 11:20:49,888 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-26 11:20:49,908 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-04-26 11:20:49,926 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\UD8E03BuclesYSwitch\src\test\resources
+2024-04-26 11:25:43,286 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:ejemploProyecto-2:0.0.1-SNAPSHOT @ C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyecto-1\pom.xml.
+2024-04-26 11:25:44,436 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploProyecto-1/src/main/java
+2024-04-26 11:25:44,438 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/main/resources
+2024-04-26 11:25:44,446 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/main/resources
+2024-04-26 11:25:44,455 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploProyecto-1/src/test/java
+2024-04-26 11:25:44,457 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/test/resources
+2024-04-26 11:25:44,798 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2024-04-26 11:25:44,801 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-04-26 11:25:45,066 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:ejemploProyecto-2:0.0.1-SNAPSHOT @ C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyecto-1\pom.xml.
+2024-04-26 11:25:45,540 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploProyecto-1/src/main/java
+2024-04-26 11:25:45,541 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/main/resources
+2024-04-26 11:25:45,541 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/main/resources
+2024-04-26 11:25:45,542 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploProyecto-1/src/test/java
+2024-04-26 11:25:45,543 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploProyecto-1/src/test/resources
+2024-04-26 11:25:45,921 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-04-26 11:25:46,359 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-26 11:25:46,372 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-26 11:25:46,377 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyecto-1\src\test\resources
+2024-04-26 11:39:11,683 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-26 11:39:11,688 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-26 11:39:11,693 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyecto-1\src\test\resources
+2024-04-26 11:39:24,352 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-26 11:39:24,385 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-26 11:39:24,388 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyecto-1\src\test\resources

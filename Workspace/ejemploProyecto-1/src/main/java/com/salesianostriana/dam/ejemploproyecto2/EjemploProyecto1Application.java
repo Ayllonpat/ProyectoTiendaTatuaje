@@ -1,4 +1,4 @@
-package com.salesianostriana.dam.ejemploproyecto1;
+package com.salesianostriana.dam.ejemploproyecto2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

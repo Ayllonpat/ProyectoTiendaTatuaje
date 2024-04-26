@@ -1,4 +1,4 @@
-package com.salesianostriana.dam.ejemploproyecto1;
+package com.salesianostriana.dam.ejemploproyecto2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
