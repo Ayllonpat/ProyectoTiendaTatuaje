@@ -483,3 +483,19 @@
 2024-04-29 12:30:59,411 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-29 12:30:59,413 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-29 12:30:59,417 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
+2024-04-29 13:34:30,520 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-29 13:43:12,246 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-29 13:43:12,261 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-04-29 13:43:12,270 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
+2024-04-29 13:45:54,752 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-29 13:45:54,757 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-29 13:45:54,762 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
+2024-04-29 13:45:59,216 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-29 13:45:59,218 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-29 13:45:59,222 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
+2024-04-29 14:00:33,209 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-29 14:00:33,212 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-29 14:00:33,217 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
+2024-04-29 14:02:12,529 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-29 14:02:12,531 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-29 14:02:12,535 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\alonso.aypat22_trian\Desktop\DAM1\Proyecto Tienda Tatuajes\Workspace\ejemploProyectoConFragmentos-3\src\test\resources
