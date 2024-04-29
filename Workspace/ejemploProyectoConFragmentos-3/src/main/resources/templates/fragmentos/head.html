@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	
+</head>
+
+<body>
+	
+	<th:block th:fragment="head">
+
+	<nav class="navbar  fixed-top">
+	        <div class="container-fluid">
+	
+	          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+	
+	          <a class="nav-item link-offset-2 link-underline link-underline-opacity-0 ms-5" href="Inicio.html">
+	            <h3>Tattoo Ink</h3>
+	          </a>
+	          
+	          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+	            Iniciar Sesión
+	          </button>
+	
+	          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	            
+	            <div class="offcanvas-header">
+	              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+	              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	            </div>
+	            <div class="offcanvas-body">
+	              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="../Inicio/Inicio.html">Inicio</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="../NuestrosArtistas/NuestrosArtistas.html">Nuestros Artistas</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="../Trabajos/Trabajos.html">Trabajos</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="#">Fechas Disponibles</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="#">Eventos</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="#">Contactenos</a>
+	                </li>
+	                <li class="nav-item dropdown">
+	                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown">
+	                    Catálogo
+	                  </a>
+	                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	                    <li><a class="dropdown-item" href="#">Catálogo Trabajador 1</a></li>
+	                    <li><a class="dropdown-item" href="#">Catálogo Trabajador 2</a></li>
+	                    <li><a class="dropdown-item" href="#">Productos Cuidados</a></li>
+	                  </ul>
+	                </li>
+	                <li th:if="user.isAdmin" class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="#">Caja</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" aria-current="page" href="#">Administración</a>
+	                </li>
+	              </ul>
+	              <form class="d-flex">
+	                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	                <button class="btn btn-outline-success" type="submit">Search</button>
+	              </form>
+	            </div>
+	          </div>
+	           
+	        </div>
+	        
+	      </nav>
+		  
+
+</body>
