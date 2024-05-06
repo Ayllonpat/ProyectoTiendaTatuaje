@@ -88,19 +88,41 @@
 
       <main class="col-12 col-lg-8 p-4 mt-5">
 
-        <h1>Sobre Nosotros</h1>
-          <div class="p-2">
-
-            <div class="d-flex">
-                <div class="col-9 col-lg-5">
-                    <h3>Dónde encontrarnos</h3>
-                    <p>Nos encontramos en una ubicación privilegiada en el centro de Sevilla</p>
-                </div>
-                <div id="map-container-google-1" class="z-depth-1-half map-container col-9 col-lg-3" style="height: 500px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5332.166276854426!2d-6.011721659230795!3d37.37741390231307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c6a6fd0990f%3A0x448eb556f306897f!2sSalesianos%20Triana!5e0!3m2!1ses-419!2ses!4v1709838212198!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-          </div>
+        <h1 class="text-center">Gestión Tatuadores</h1>
+		
+		        <table class="table bg-dark">
+		          <thead>
+		            <tr>
+		              <th>Id</th>
+		              <th>Nombre Usuario</th>
+		              <th>Nombre</th>
+		              <th>Apellidos</th>
+		              <th>Fecha Nacimiento</th>
+		              <th>NContacto</th>
+		              <th>DNI</th>
+		              <th>Email</th>
+		              <th>Certificado</th>
+		            </tr>
+		          </thead>
+		          <tbody>
+		            <tr th:each="tatuador : ${tatuador}">
+		              <td th:text="${tatuador.id}"></td>
+		              <td th:text="${tatuador.nombreUsuario}"></td>
+		              <td th:text="${tatuador.nombre}"></td>
+		              <td th:text="${tatuador.apellidos}"></td>
+		              <td th:text="${tatuador.fechaNacimiento}"></td>
+		              <td th:text="${tatuador.nContacto}"></td>
+		              <td th:text="${tatuador.dni}"></td>
+		              <td th:text="${tatuador.email}"></td>
+		              <td th:text="${tatuador.certificadoHigienico}"></td>
+					  <td>
+						
+					  </td>
+		            </tr>
+		          </tbody>
+		        </table>
+				
+				<i class="bi bi-plus-square"href="#"></i>
       </main>
 
       <aside class="col-12 col-lg-2 p-4">

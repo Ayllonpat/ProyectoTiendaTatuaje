@@ -40,6 +40,12 @@ aside{
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+.table{
+	color:  rgb(201, 151, 247);	
+	border: 1px;
+	border-color:  rgb(201, 151, 247);
+	background-color: transparent;
+}   
 footer{
     background-color: rgb(24, 24, 24);
 }
